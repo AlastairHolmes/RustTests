@@ -1,1 +1,1 @@
-RustTests
+rust_tests

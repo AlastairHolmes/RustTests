@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'RustTests'",
+            "name": "Debug executable 'rust_tests'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=RustTests",
-                    "--package=RustTests"
+                    "--bin=rust_tests",
+                    "--package=rust_tests"
                 ],
                 "filter": {
-                    "name": "RustTests",
+                    "name": "rust_tests",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'RustTests'",
+            "name": "Debug unit tests in executable 'rust_tests'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=RustTests",
-                    "--package=RustTests"
+                    "--bin=rust_tests",
+                    "--package=rust_tests"
                 ],
                 "filter": {
-                    "name": "RustTests",
+                    "name": "rust_tests",
                     "kind": "bin"
                 }
             },
